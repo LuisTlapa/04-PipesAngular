@@ -7,5 +7,5 @@ html, body{
 }
 
 .text-Layout{
-    color : var(--text-color)
+    color : var(--text-color);
 }
