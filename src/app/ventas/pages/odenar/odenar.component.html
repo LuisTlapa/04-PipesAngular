@@ -59,7 +59,8 @@
 
 <div class="p-grid">
     <div class="p-col p-mt-5">
-        <p-table [value]="heroes | slice:0">
+        <p-table [value]="heroes | slice:0"> <!-- Para este error instalar "npm install @angular/cdk --save
+            "-->
             <ng-template pTemplate="header">
                 <tr>
                     <th pSortableColumn="nombre">Nombre <p-sortIcon field="nombre"></p-sortIcon></th>
